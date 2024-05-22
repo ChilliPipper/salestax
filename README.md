@@ -39,11 +39,13 @@ This application calculates sales taxes for different products according to spec
 
 6. **Install Node.js dependencies**
 
+    ```sh
     ./vendor/bin/sail npm install
     ./vendor/bin/sail npm run dev
 
 7. **Start de development server**
 
+    ```sh
     ./vendor/bin/sail artisan serve
 
 **The application will be available at http://localhost.**
