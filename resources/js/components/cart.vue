@@ -1,5 +1,5 @@
 <template>
-    <!-- Contenido de la tabla de carrito y generación de recibo -->
+    
 </template>
 
 <script>
