@@ -43,7 +43,7 @@ This application calculates sales taxes for different products according to spec
     ./vendor/bin/sail npm install
     ./vendor/bin/sail npm run dev
 
-7. **Start de development server**
+7. **Start the development server**
 
     ```sh
     ./vendor/bin/sail artisan serve
