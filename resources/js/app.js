@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const productContainer = this.closest('.product-container');
             const productId = productContainer.dataset.productId;
             const productNameElement = productContainer.querySelector('h3');
-            let productName = ''; // Definir productName fuera del bloque if
+            let productName = ''; 
             if (productNameElement) {
-                productName = productNameElement.innerText; // Asignar valor a productName dentro del bloque if
+                productName = productNameElement.innerText; 
             } else {
                 console.error("Elemento <h3> no encontrado en el contenedor de productos.");
             }
